@@ -23,7 +23,7 @@
 </decoder>
 
 <decoder name="unifi_udm_generic">
-  <prematch type="pcre2">UDMPro </prematch>
-  <regex type="pcre2">UDMPro (.*)</regex>
+  <prematch type="pcre2">UDMProSE </prematch>
+  <regex type="pcre2">UDMProSE (.*)</regex>
   <order>udm_generic_data</order>
 </decoder>
